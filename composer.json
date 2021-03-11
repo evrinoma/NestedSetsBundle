@@ -1,0 +1,29 @@
+{
+    "name": "evrinoma/nested-sets-bundle",
+    "description": "NestedSets",
+    "keywords": [
+        "Nested Sets",
+        "Nested Tree"
+    ],
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nikolay Nikolaev",
+            "email": "evrinoma@gmail.com"
+        }
+    ],
+    "version": "1.0.0",
+    "require": {
+        "php": "^7.4",
+        "evrinoma/utils-bundle": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Evrinoma\\NestedSetsBundle\\": "src/"
+        },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    }
+}

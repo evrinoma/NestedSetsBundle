@@ -1,0 +1,3 @@
+nestedsetapi:
+  resource: "@EvrinomaNestedSetsBundle/Resources/config/routing/api.yml"
+  prefix: evrinoma

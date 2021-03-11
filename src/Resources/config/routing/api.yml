@@ -1,0 +1,3 @@
+nestedsets_api:
+  resource: "@EvrinomaNestedSetsBundle/Controller/NestedSetsApiController.php"
+  type: annotation
