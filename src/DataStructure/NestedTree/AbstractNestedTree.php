@@ -50,25 +50,25 @@ abstract class AbstractNestedTree implements NestedTreeInterface
      *
      * @var NestedTree[]
      */
-    protected $lasts = [];
+    public $lasts = [];
     /**
      * указатель на последний добавленный нод
      *
      * @var null|NestedTree
      */
-    protected $last;
+    public $last;
     /**
      * уровень глубины текущего узла, для ROOT узла level всегда равен -1
      *
      * @var int
      */
-    protected $level = -1;
+    public $level = -1;
     /**
      * массив элементов по уровням
      *
      * @var NestedTree[][]
      */
-    protected $payLoadByLevel;
+    public $payLoadByLevel;
     /**
      * левая часть
      *
@@ -104,13 +104,13 @@ abstract class AbstractNestedTree implements NestedTreeInterface
      *
      * @var int
      */
-    private $maxLevel = 0;
+    public $maxLevel = 0;
     /**
      * полезная нагрузка для узел дерева
      *
      * @var PayLoadInterface
      */
-    private $payLoad;
+    public $payLoad;
 //endregion Fields
 
 //region SECTION: Constructor
