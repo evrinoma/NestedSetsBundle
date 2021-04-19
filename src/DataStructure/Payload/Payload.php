@@ -10,14 +10,14 @@ class Payload implements PayloadInterface
      *
      * @var null
      */
-    private $identity = null;
+    private $identity;
 
     /**
      * набор передаваемых данных в узел дерева
      *
      * @var null
      */
-    private $payLoad = null;
+    private $payLoad ;
 
     /**
      * загрузка по клику подстроки
